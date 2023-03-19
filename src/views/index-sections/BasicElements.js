@@ -66,7 +66,7 @@ function BasicElements() {
           {/* <div ref={InfoRef}></div> */}
           <p id="info" className="text-warning">
             <br></br>
-            <h3 className="title">About Me</h3>
+            <h2 className="title">About Me</h2>
             <br/>
           </p>
           {/*사진이랑 info 나란히 정렬 하기..*/}

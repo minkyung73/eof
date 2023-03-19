@@ -19,6 +19,7 @@ import BasicElements from "./views/index-sections/BasicElements";
 import Tabs from "./views/index-sections/Tabs";
 import Javascript from "./views/index-sections/Javascript";
 import Carousel from "./views/index-sections/Carousel";
+import Javascript_mo from "./views/index-sections/Javascript_mo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -58,10 +59,10 @@ function App() {
         <IndexHeader />
         <div className="main">
           <BasicElements />
-          <Images />
-          <Carousel />
-          <Tabs />
-          <Javascript />
+          {/* <Images /> */}
+          {/* <Carousel /> */}
+          {/* <Tabs /> */}
+          <Javascript_mo />
         </div>
         <div
           className="scroll-to-top"
